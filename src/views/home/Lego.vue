@@ -18,15 +18,19 @@ export default {
 <style lang="scss" scoped>
 .lego {
     padding: 0 16px;
-    margin-bottom: 32px;
+    margin: 32px 0;
 
     @include breakpoint($md) {
         padding: 0 128px;
     }
 
     @include breakpoint($lg) {
-        padding: 0 calc((100% - 1200px) / 2);
         display: flex;
+        padding: 0 32px;
+    }
+
+    @include breakpoint($elg) {
+        padding: 0 calc((100% - 1200px) / 2);
     }
 
     &__text {
@@ -54,6 +58,7 @@ export default {
     &__image {
         display: flex;
         justify-content: center;
+        align-items: center;
 
         @include breakpoint($lg) {
             flex: 1;

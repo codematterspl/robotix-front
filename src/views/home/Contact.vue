@@ -10,7 +10,7 @@
             </div>
             <div class="contact__data__item">
                 <img src="@/assets/images/phone-gear.svg" />
-                <a class="phone">797 295 465</a>
+                <a href="tel:797295465" class="phone">797 295 465</a>
             </div>
         </div>
     </section>
@@ -22,14 +22,14 @@ export default {
 </script>
 <style lang="scss" scoped>
 .contact {
-    margin: 32px 0;
+    margin: 48px 0;
     padding: 0 16px;
 
     @include breakpoint($md) {
         padding: 0 32px;
     }
 
-    @include breakpoint($lg) {
+    @include breakpoint($elg) {
         padding: 0 calc((100% - 1200px) / 2);
     }
 
@@ -48,7 +48,6 @@ export default {
         display: flex;
         flex-direction: column;
         margin-top: 32px;
-        padding: 0 32px;
 
         @include breakpoint($md) {
             font-size: 24px;
@@ -71,7 +70,7 @@ export default {
             }
 
             .email, .phone {
-                padding-left: 32px;
+                padding-left: 24px;
                 font-size: 16px;
                 font-weight: 900;
                 font-family: Montserrat;

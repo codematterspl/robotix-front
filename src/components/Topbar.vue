@@ -1,7 +1,9 @@
 <template>
     <nav class="topbar">
         <div class="topbar__logo">
-            <img src="@/assets/images/robotix_logo.jpg" />
+            <router-link to="/">
+                <img src="@/assets/images/robotix_logo.jpg" />
+            </router-link>
         </div>
         <div class="topbar__menu">
             <Hamburger />

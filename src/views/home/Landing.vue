@@ -92,9 +92,14 @@ export default {
             padding: 0px 24px;
             border-radius: 50px;
             text-align: center;
+            transition: all 0.3s;
 
             @include breakpoint($md) {
                 padding: 0 128px;
+            }
+
+            &:hover {
+                background-color: #138bc2;
             }
         }
 

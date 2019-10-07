@@ -46,7 +46,11 @@ export default {
     }
 
     @include breakpoint($lg) {
-        padding: 0 calc((100% - 1200px) / 2);
+        padding: 0 128px;
+    }
+
+    @include breakpoint($elg) {
+        padding: 0 calc((100% - 1200px) / 2 + 128px);
     }
 
     &__header {
@@ -56,14 +60,6 @@ export default {
 
     &__list {
         margin-top: 32px;
-
-        @include breakpoint($md) {
-            padding: 0 32px;
-        }
-
-        @include breakpoint($lg) {
-            padding: 0 128px;
-        }
 
         .item {
             display: flex;

@@ -23,7 +23,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .about {
-    margin-top: 24px;
+    margin-top: 32px;
     padding: 0 16px;
 
     @include breakpoint($md) {
@@ -31,8 +31,12 @@ export default {
     }
 
     @include breakpoint($lg) {
-        padding: 0 calc((100% - 1200px) / 2);
         display: flex;
+        padding: 0 32px;
+    }
+
+    @include breakpoint($elg) {
+        padding: 0 calc((100% - 1200px) / 2);
     }
 
     &__section {
@@ -45,7 +49,7 @@ export default {
             flex: 1;
 
             & + .about__section {
-                margin-left: 16px;
+                margin-left: 32px;
             }
         }
 
@@ -68,7 +72,7 @@ export default {
             font-size: 12px;
             line-height: 24px;
             font-family: Roboto;
-            text-align: center;
+            text-align: justify;
             margin-top: 16px;
         }
 
