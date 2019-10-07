@@ -21,15 +21,15 @@
             </router-link>
             <router-link
                 class="menu-item"
-                to="contact"
-            >
-                Kontakt
-            </router-link>
-            <router-link
-                class="menu-item"
                 to="faq"
             >
                 FAQ
+            </router-link>
+            <router-link
+                class="menu-item"
+                to="contact"
+            >
+                Kontakt
             </router-link>
             <router-link
                 class="button-sign"

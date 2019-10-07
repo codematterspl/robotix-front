@@ -4,8 +4,12 @@
             <span class="motto">Nauka robotyki w Robotix<br /> jest dziecinnie prosta!</span>
             <router-link to="#" class="link">Odkryj świat robotów razem z nami!</router-link>
             <div class="socials">
-                <Icon name="instagram" />
-                <Icon name="facebook" />
+                <router-link to="/">
+                    <Icon name="instagram" />
+                </router-link>
+                <router-link to="/">
+                    <Icon name="facebook" />
+                </router-link>
             </div>
         </div>
         <div class="landing__illustration">
@@ -25,7 +29,6 @@ export default {
 <style lang="scss" scoped>
 .landing {
     height: calc(100vh - 80px);
-    margin-top: 80px;
     background: radial-gradient(farthest-corner at 40px 40px, #4F6C9C, #2E4E82);
     display: flex;
     align-items: center;
@@ -117,7 +120,8 @@ export default {
     &__illustration {
         @include breakpoint($lg) {
             position: absolute;
-            left: 0;
+            align-self: center;
+            left: calc((100% - 1200px) / 2 - 100px)
         }
 
         .illustration {

@@ -23,7 +23,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .about {
-    margin-top: 32px;
+    margin-top: 48px;
     padding: 0 16px;
 
     @include breakpoint($md) {

@@ -6,8 +6,6 @@
         <Banner />
         <Offer />
         <FAQ />
-        <Contact />
-        <Footer />
     </div>
 </template>
 <script>
@@ -17,8 +15,6 @@ import Lego from './Lego'
 import Banner from './Banner'
 import Offer from './Offer'
 import FAQ from './FAQ'
-import Contact from './Contact'
-import Footer from './Footer'
 
 export default {
     components: {
@@ -28,8 +24,6 @@ export default {
         Banner,
         Offer,
         FAQ,
-        Contact,
-        Footer,
     },
     name: 'Home',
 };
@@ -38,5 +32,6 @@ export default {
 .home {
     display: flex;
     flex-direction: column;
+    padding-top: 80px;
 }
 </style>
