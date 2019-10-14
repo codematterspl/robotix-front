@@ -9,25 +9,25 @@
             <Hamburger />
             <router-link
                 class="menu-item"
-                to="about"
+                to="#about"
             >
                 O nas
             </router-link>
             <router-link
                 class="menu-item"
-                to="offer"
+                to="#offer"
             >
                 Oferta
             </router-link>
             <router-link
                 class="menu-item"
-                to="faq"
+                to="#faq"
             >
                 FAQ
             </router-link>
             <router-link
                 class="menu-item"
-                to="contact"
+                to="#contact"
             >
                 Kontakt
             </router-link>
@@ -52,6 +52,8 @@ export default {
 <style lang="scss" scoped>
 .topbar {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     box-sizing: border-box;
     height: 80px;

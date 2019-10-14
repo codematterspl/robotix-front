@@ -1,11 +1,11 @@
 <template>
     <div class="home">
         <Landing />
-        <AboutUs />
+        <AboutUs id="about" />
         <Lego />
         <Banner />
-        <Offer />
-        <FAQ />
+        <Offer id="offer" />
+        <FAQ id="faq" />
     </div>
 </template>
 <script>
@@ -33,5 +33,6 @@ export default {
     display: flex;
     flex-direction: column;
     padding-top: 80px;
+    background-image: url('~assets/images/bg.jpg');
 }
 </style>

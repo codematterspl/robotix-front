@@ -4,7 +4,7 @@
             <p class="text">
                 Nie czekaj! Już teraz zapisz swoje dziecko i odkrywajcie razem wspaniały świat Robotix!
             </p>
-            <router-link to="/" class="link">kliknij i wypełnij formularz</router-link>
+            <router-link to="/sign" class="link">kliknij i wypełnij formularz</router-link>
         </div>
     </section>
 </template>

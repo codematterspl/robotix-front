@@ -88,7 +88,7 @@ export default {
             display: flex;
             list-style-type: none;
             margin-bottom: 16px;
-            border: 2px solid #F8F8F8;
+            border: 2px solid rgb(240, 240, 240);
             border-radius: 50px;
             padding: 32px;
             align-items: center;

@@ -22,7 +22,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .contact {
-    margin: 48px 0;
+    margin-top: 80px;
     padding: 0 16px;
 
     @include breakpoint($md) {

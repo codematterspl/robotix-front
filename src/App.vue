@@ -1,16 +1,13 @@
 <template>
     <div id="app">
         <Topbar />
-        <router-view>
-            <Home />
-        </router-view>
-        <Contact />
+        <router-view></router-view>
+        <Contact id="contact" />
         <Footer />
     </div>
 </template>
 <script>
 import Topbar from '@/components/Topbar'
-import Home from '@/views/home/Index'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 
@@ -18,7 +15,6 @@ export default {
     name: 'App',
     components: {
         Topbar,
-        Home,
         Footer,
         Contact
     },

@@ -2,7 +2,7 @@
     <section class="landing">
         <div class="landing__motto">
             <span class="motto">Nauka robotyki w Robotix<br /> jest dziecinnie prosta!</span>
-            <router-link to="#" class="link">Odkryj świat robotów razem z nami!</router-link>
+            <router-link to="#about" class="link">Odkryj świat robotów razem z nami!</router-link>
             <div class="socials">
                 <router-link to="/">
                     <Icon name="instagram" />
